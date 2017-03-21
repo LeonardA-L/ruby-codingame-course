@@ -1,4 +1,15 @@
 # Assignment
-Write a function that, given an array of numbers, return the min value.
+Write a function that, given multiple number values given as parameters, returns the min value.
 
-@[Min value of array]({"stubs": ["min.rb", "run.sh"], "command": "/bin/bash /project/target/run.sh"})
+@[Min value of array]({"stubs": ["min.rb"], "command": "/bin/bash /project/target/run.sh"})
+
+# Writing this
+
+For this *really basic* POC I used `test-unit` to test the function written by the learner. The project folder of this course contains several files (markdown courses, unit tests, scripts) but I chose to only expose one ruby script to the learner to help them focus on the assignment.
+You can chose to expose more files, and ask for more complex assignments. You can also create multiple code assignments by using the dedicated markdown command
+
+```
+@[Name of assignment]({"stubs": ["list", "of", "exposed", "files"], "command": "a bash command that runs the tests"})
+```
+
+Full sources for this CodinGame project are [on GitHub](https://github.com/LeonardA-L/ruby-codingame-course)
