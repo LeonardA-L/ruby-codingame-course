@@ -1,6 +1,10 @@
-title : Content name
+title : Ruby basic POC
 plan:
-  - title: Part 1
+  - title: Ruby basic POC with test-unit
     statement: markdowns/part1.md
-  - title: Part 2
-    statement: markdowns/part2.md
+projects:
+  ruby:
+   root: root
+   runner:
+    name: ruby
+    version: latest
