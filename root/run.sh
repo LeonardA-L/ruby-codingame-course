@@ -4,4 +4,4 @@ gem install test-unit
 echo "CG> redirect-streams --reset"
 
 cd /project/target
-rb min.rb
+ruby test_min.rb
